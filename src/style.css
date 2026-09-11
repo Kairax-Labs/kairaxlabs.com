@@ -132,7 +132,7 @@ a {
   height: 100vh;
   z-index: 0;
   pointer-events: none;
-  background: url('/abyss-creature.png') no-repeat center center / cover;
+  background: url('./assets/abyss-creature.png') no-repeat center center / cover;
   opacity: 0.85;
   transition: transform 0.1s ease-out, opacity 0.3s ease;
 }
