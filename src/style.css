@@ -334,14 +334,14 @@ a {
 .brand-name {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 0.75rem;
   letter-spacing: -0.01em;
   color: #fff;
 }
 
 .brand-sub {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-weight: 500;
   color: var(--bio-accent);
   letter-spacing: 0.05em;
