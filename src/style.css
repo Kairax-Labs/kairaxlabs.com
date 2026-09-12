@@ -548,7 +548,7 @@ a {
 
 .clean-kinetic-title {
   font-family: var(--font-display);
-  font-size: clamp(3.75rem, 9.5vw, 8.25rem);
+  font-size: clamp(2.75rem, 7.5vw, 5.25rem);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 0.98;
