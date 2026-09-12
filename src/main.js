@@ -366,7 +366,7 @@ function initContactForm() {
     setTimeout(() => {
       if (feedback) {
         feedback.className = 'clean-toast font-mono';
-        feedback.innerHTML = `✓ Transmission Confirmed. Thank you ${name}. Your message regarding "${interest}" has been received at hello@kairaxlabs.com.`;
+        feedback.innerHTML = `✓ Transmission Confirmed. Thank you ${name}. Your message regarding "${interest}" has been received at chinthana.dev@gmail.com.`;
         feedback.classList.remove('hidden');
       }
 
