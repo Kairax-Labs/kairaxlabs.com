@@ -221,7 +221,7 @@
             </div>
           </div>
           <div class="card-bottom-bar font-mono">
-            <span>● 3 PRODUCTION CORES</span>
+            <span>● 4 PRODUCTION CORES</span>
             <span>VER: 2026.3</span>
           </div>
         </div>
@@ -390,6 +390,28 @@
             <p class="project-category">Cultural Well-Being Mobile Application</p>
 
             <button class="btn btn-card-modal btn-modal-trigger" data-modal="modal-lume">
+              <span>View Architecture & Specs</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </article>
+
+        <!-- Project 4: Aura Gems -->
+        <article class="clean-project-card clean-glass" data-tilt>
+          <div class="project-header-bar">
+            <span class="project-year font-mono">2026</span>
+            <div class="clean-award-pill">
+              <span>💎 Enterprise MERN • Redis & Dual Dashboard</span>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3 class="project-heading">Aura Gems (Gemstone Vault)</h3>
+            <p class="project-category">Full-Stack Gemstone E-Commerce Platform</p>
+
+            <button class="btn btn-card-modal btn-modal-trigger" data-modal="modal-aura-gems">
               <span>View Architecture & Specs</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="9 18 15 12 9 6"></polyline>
@@ -628,6 +650,46 @@
                     meditation timer with calming soundscapes, and reflective journaling.</li>
                   <li><strong>Supabase Cloud Infrastructure:</strong> Secure multi-device authentication, real-time sync
                     for photo memories, and encrypted personal journal storage.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-backdrop" id="modal-aura-gems" aria-hidden="true">
+          <div class="modal-dialog clean-glass">
+            <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+            <div class="modal-content">
+              <div class="modal-meta-row font-mono">
+                <span>💎 FULL-STACK MERN & REDIS CACHING</span>
+                <span>2026</span>
+              </div>
+              <h2 class="modal-title">Gemstone Vault — Enterprise Architecture</h2>
+              <p class="modal-sub">Full-Stack MERN Gemstone E-Commerce Platform with On-Demand Redis Caching & Dual Dashboard</p>
+
+              <div class="modal-section">
+                <h3>Architectural Overview</h3>
+                <p>Engineered as a high-performance, enterprise-grade gemstone certification and retail e-commerce platform. The platform features a decoupled architecture separating customer shopping experiences from back-office administration, leveraging React 19, Redux Toolkit, and Vite on the frontend, powered by a Node.js/Express 5 RESTful API with MongoDB, Redis sub-millisecond caching, and Cloudinary CDN integration.</p>
+                <div class="clean-ascii-box font-mono">
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        Gemstone E-Commerce Architecture                      │
+├───────────────────────────────────┬──────────────────────────────────────────┤
+│ Customer Portal & Admin Dashboard │ High-Performance Backend & Database      │
+│ • React 19 | Redux Toolkit | Vite │ • Node.js (Express 5) | MongoDB Mongoose │
+│ • Tailwind CSS | Stripe & PayPal  │ • Redis Cache | Cloudinary CDN | JWT     │
+└───────────────────────────────────┴──────────────────────────────────────────┘
+                </div>
+              </div>
+
+              <div class="modal-section">
+                <h3>Core Technical Modules</h3>
+                <ul class="clean-modal-list">
+                  <li><strong>High-Speed Redis Caching Engine:</strong> Optimized catalog query performance and session lookup with in-memory Redis caching to achieve sub-millisecond API responses for high-traffic product listings.</li>
+                  <li><strong>Dual Dashboard Architecture:</strong> Complete separation of concern between client-facing storefront (frontend) and operational back-office management portal (admin-frontend).</li>
+                  <li><strong>Multi-Gateway Payment Integration:</strong> End-to-end secure transaction pipeline integrating Stripe Payment Gateway and PayPal SDK with server-side validation and automated order dispatching.</li>
+                  <li><strong>Cloudinary Asset & Media Pipeline:</strong> Automated high-resolution gemstone image uploading, dynamic transformation, and CDN delivery using Multer middleware and Cloudinary API.</li>
+                  <li><strong>State-Driven E-Commerce Engine:</strong> Built with Redux Toolkit managing global application state, real-time wishlist synchronization, interactive shopping cart, and dynamic search/filtering.</li>
+                  <li><strong>Granular Authentication & Security:</strong> Secure JWT (JSON Web Token) authentication flow, bcrypt password hashing, RBAC (Role-Based Access Control) middleware, and automated transactional emails via Nodemailer.</li>
                 </ul>
               </div>
             </div>
