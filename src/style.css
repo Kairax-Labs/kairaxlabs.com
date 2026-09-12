@@ -561,13 +561,13 @@ a {
 }
 
 .word-kairax {
-  font-size: clamp(2.75rem, 9.5vw, 8.25rem);
+  font-size: clamp(3.25rem, 9.5vw, 8.25rem);
   color: #ffffff;
   text-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);
 }
 
 .word-labs {
-  font-size: clamp(2.75rem, 9.5vw, 8.25rem);
+  font-size: clamp(3.25rem, 9.5vw, 8.25rem);
   color: var(--bio-accent);
   opacity: 0.95;
   text-shadow: 0 4px 35px rgba(125, 211, 252, 0.2);
